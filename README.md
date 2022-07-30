@@ -21,13 +21,13 @@ The latest sxz4stat (version 1.0.0 and higher) now uses the pulsar package for s
 
 ``` library(sxz4stat)
 
-### see the structure of data "Demo_df"
+### see the structure of data "Demo_df" ```
 
-``` head(Demo_df)
+``` head(Demo_df) ```
 
-``` anova_post_hoc(Demo_df)
+``` anova_post_hoc(Demo_df) ```
 
 ### df_bind()函数
 
-``` df_bind()
+``` df_bind() ```
 
