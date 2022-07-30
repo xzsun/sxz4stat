@@ -11,7 +11,7 @@ devtools I assume that all auxiliary packages are already installed - for exampl
 
 ### install R package of "sxz4stat":
 
-``` devtools::install_github("xzsun/sxz4stat")
+``` devtools::install_github("xzsun/sxz4stat") ```
 
 ### News
 
