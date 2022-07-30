@@ -9,7 +9,7 @@ Basic Usage
 Installation
 devtools I assume that all auxiliary packages are already installed - for example openxlsx, car, agricolae etc. If you get an unexpected error, you may need to download and install a missing dependency.
 
-From an interactive R session:
+### install R package of "sxz4stat":
 devtools::install_github("xzsun/sxz4stat")
 
 ### News
@@ -23,4 +23,6 @@ head(Demo_df)
 
 anova_post_hoc(Demo_df)
 
+### df_bind()函数
 df_bind()
+
