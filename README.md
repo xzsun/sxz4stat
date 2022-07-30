@@ -2,8 +2,11 @@
 data tidy, data description, one-way anova, post hoc test analysis
 
 > Content
+
 > Installation
+
 > News
+
 > Basic Usage
 
 Installation
