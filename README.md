@@ -1,13 +1,10 @@
 # sxz4stat
 data tidy, data description, one-way anova, post hoc test analysis
 
-> Content
-
-> Installation
-
-> News
-
-> Basic Usage
+## TOC ##
+0. [Installation](#installation)
+1. [News](#news)
+2. [Basic Usage](#basic-usage)
 
 Installation
 devtools I assume that all auxiliary packages are already installed - for example openxlsx, car, agricolae etc. If you get an unexpected error, you may need to download and install a missing dependency.
