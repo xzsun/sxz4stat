@@ -1,5 +1,5 @@
 # sxz4stat
-data description, one-way anova, post hoc test analysis
+data tidy, data description, one-way anova, post hoc test analysis
 
 Content
 Installation
@@ -15,7 +15,7 @@ devtools::install_github("xzsun/sxz4stat")
 ### News
 The latest sxz4stat (version 1.0.0 and higher) now uses the pulsar package for stability-based model selection.
 
-Basic Usage
+### Basic Usage
 library(sxz4stat)
 
 ### see the structure of data "Demo_df"
