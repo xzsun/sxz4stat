@@ -13,6 +13,8 @@ Description: For anova_post_hoc(), data type must be dataframe, which the first 
     colname of df is fit with the rowname of gr; and rowname of df is fit with the rowname of ta. col.n is one of the colnames of gr, and row.n is one of the colnames of ta.
     df, gr, ta are belonging to dataframe.
     A dataframe was averaged by some group of gr and sumed by some taxonomy of ta.
+    For long_to_adjacentMatrix(), long data turn to width data; or edge data of network turn to adjacent matrix.
+    the 1st column of df is the rowname of new dataframe; the 2nd column of df is the colname of new dataframe; the 3rd column of df is the value of new dataframe.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
