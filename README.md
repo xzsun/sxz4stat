@@ -5,6 +5,7 @@ data tidy, data description, one-way anova, post hoc test analysis
 0. [Installation](#installation)
 1. [News](#news)
 2. [Basic Usage](#basic-usage)
+3. [About author](#about-author)
 
 Installation
 devtools I assume that all auxiliary packages are already installed - for example openxlsx, car, agricolae etc. If you get an unexpected error, you may need to download and install a missing dependency.
@@ -15,7 +16,7 @@ devtools I assume that all auxiliary packages are already installed - for exampl
 
 ### News
 
-The latest sxz4stat (version 0.1.2 and higher) now uses the pulsar package for stability-based model selection.
+The latest sxz4stat (version 0.1.3 ) now was added the new function,  long_to_adjacentMatrix().
 
 ### Basic Usage
 
@@ -34,3 +35,8 @@ The latest sxz4stat (version 0.1.2 and higher) now uses the pulsar package for s
 #### long_to_adjacentMatrix()函数
 
 ``` long_to_adjacentMatrix() ```
+
+### About author
+
+Contact me(https://xzsun.github.io/)
+
