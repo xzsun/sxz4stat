@@ -59,5 +59,3 @@ devtools::build()
 install.packages("C:/Users/zhan/Desktop/to/sxz4stat.tar.gz",
                  repos=NULL, type="source")
 
-
-

@@ -4,8 +4,6 @@
 #' @param df is belonging to dataframe.
 #' @return A dataframe was formed to easy check.
 #' @export long_to_adjacentMatrix
-#' @import
-#' @importFrom
 #' @examples
 
 ### 长数据转化为宽数据或边数据转化为邻接矩阵

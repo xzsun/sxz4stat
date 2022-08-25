@@ -1,7 +1,7 @@
 Package: sxz4stat
 Type: Package
 Title: sxz4stat for data tidy and analysis
-Version: 0.1.2
+Version: 0.1.3
 Author: Xinzhan Sun
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: For anova_post_hoc(), data type must be dataframe, which the first column is treatment as "factor"" type and the second column is data as "numeric"" type. 

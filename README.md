@@ -31,3 +31,6 @@ The latest sxz4stat (version 0.1.2 and higher) now uses the pulsar package for s
 
 ``` df_bind() ```
 
+#### long_to_adjacentMatrix()函数
+
+``` long_to_adjacentMatrix() ```
