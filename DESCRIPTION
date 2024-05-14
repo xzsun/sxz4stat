@@ -18,7 +18,7 @@ Description: For anova_post_hoc(), data type must be dataframe, which the first 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Imports: AggregateR (>= 0.1.1), agricolae (>= 1.0), car (>= 1.0), doBy
         (>= 1.0), flextable (>= 0.6.10), officer (>= 0.4.1), openxlsx
         (>= 1.0), pacman (>= 0.5.1), xtable (>= 1.0), tidyverse (>=

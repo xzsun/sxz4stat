@@ -72,16 +72,16 @@ anova_post_hoc <- function(df){
   dat1 <- df
   trnum <- length(unique(dat1$tr))
   if(trnum>2){ # ANOVA
-    if(pvalue1>=0.05 & pvalue2>=0.05){#Duncan检验
+    if(pvalue1>=0.05 & pvalue2>=0.05){#LSD检验
       model1 <- aov(va~tr,data = dat1)
-      out <- duncan.test(model1, 'tr', DFerror, MSerror, alpha = 0.05, group=TRUE, main = NULL,console=FALSE)
+      out <- agricolae::LSD.test(model1, 'tr', DFerror, MSerror, alpha = 0.05, group=TRUE, main = NULL,console=FALSE)
       outabc <- data.frame(out$groups)
     }else if(pvalue1<0.05 | pvalue2<0.05){
       plg1 <- shapiro.test(log1p(dat1$va))$p.value %>% round(4)
       plg2 <- leveneTest(log1p(va)~factor(tr),data=dat1)$`Pr(>F)`[1] %>% round(4)
-      if(plg1>=0.05 & plg2>=0.05){#对数转化后Duncan检验
+      if(plg1>=0.05 & plg2>=0.05){#对数转化后LSD检验
         model1 <- aov(log1p(va)~tr,data = dat1)
-        out <- duncan.test(model1, 'tr', DFerror, MSerror, alpha = 0.05, group=TRUE, main = NULL,console=FALSE)
+        out <- agricolae::LSD.test(model1, 'tr', DFerror, MSerror, alpha = 0.05, group=TRUE, main = NULL,console=FALSE)
         outabc <- data.frame(out$groups)
       }else if(plg1<0.05 | plg2<0.05){#非参数Kruskal-Waliis秩和检验，并用fdr对p值矫正
         out <- with(dat1,kruskal(va,factor(tr),alpha = 0.05, p.adj=c("fdr"), group=TRUE, main = NULL,console=FALSE))#Bonferroni，最简单严厉的方法。FDR用比较温和的方法对p值进行了校正。
