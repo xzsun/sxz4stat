@@ -53,6 +53,7 @@ devtools::check()
 
 ### 将包制成压缩包(*.tar.gz)，方便传输或者分享
 #方法一： 先打开“.Rproj”文件，再点击Build → Build Source Package
+
 #方法二：
 devtools::build()
 
