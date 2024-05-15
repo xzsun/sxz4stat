@@ -7,6 +7,7 @@ Maintainer: The package maintainer <yourself@somewhere.net>
 Description: For anova_post_hoc(), data type must be dataframe, which the first column is treatment as "factor"" type and the second column is data as "numeric"" type. 
     anova_post_hoc() would first test data by one-way ANOVA, then post hoc test.
     Before ANOVA, shapiro.test and leveneTest were used. log1p() would be used if necessary.
+    Demo_df is the Demo data for anova_post_hoc().
     If there are two treatments, Student's t-test or Wilicoxon test was used.
     If there are three treatments or more, LSD test or Kruskal-Waliis test was used.
     For df_cbind(), calculate mean and sum of the df according group of the gr and taxonomy of the ta. 
@@ -15,6 +16,7 @@ Description: For anova_post_hoc(), data type must be dataframe, which the first 
     A dataframe was averaged by some group of gr and sumed by some taxonomy of ta.
     For long_to_adjacentMatrix(), long data turn to width data; or edge data of network turn to adjacent matrix.
     the 1st column of df is the rowname of new dataframe; the 2nd column of df is the colname of new dataframe; the 3rd column of df is the value of new dataframe.
+    Demo_longdf is the Demo data for long_to_adjacentMatrix().
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

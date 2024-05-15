@@ -60,3 +60,14 @@ devtools::build()
 install.packages("C:/Users/zhan/Desktop/sxz4stat_0.1.4.tar.gz",
                  repos=NULL, type="source")
 
+# library(sxz4stat)
+# Demo_df
+
+# sxz4stat::long_to_adjacentMatrix(Demo_longdf)
+
+# Demo_longdf <- data.frame(OTU=rep(c("OTU1","OTU2","OTU3","OTU4","OTU5"),time=3),
+#                           Sample=rep(c("S1","S2","S3"),each=5),
+#                           Value=c(4,6,9,7,5,7,9,9,6,8,9,8,9,4,7))
+# save(Demo_longdf,file="Demo_longdf.rda")
+
+

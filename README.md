@@ -16,6 +16,8 @@ devtools I assume that all auxiliary packages are already installed - for exampl
 
 ### News
 
+The latest sxz4stat (version 0.1.4 ) of anova_post_hoc(Demo_df) was revised by corrected Dunncan test to LSD test.
+
 The latest sxz4stat (version 0.1.3 ) now was added the new function,  long_to_adjacentMatrix().
 
 ### Basic Usage
