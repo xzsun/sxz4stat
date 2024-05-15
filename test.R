@@ -57,6 +57,6 @@ devtools::check()
 #方法二：
 devtools::build()
 
-install.packages("C:/Users/zhan/Desktop/to/sxz4stat.tar.gz",
+install.packages("C:/Users/zhan/Desktop/sxz4stat_0.1.4.tar.gz",
                  repos=NULL, type="source")
 

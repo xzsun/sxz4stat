@@ -1,14 +1,14 @@
 Package: sxz4stat
 Type: Package
 Title: sxz4stat for data tidy and analysis
-Version: 0.1.3
+Version: 0.1.4
 Author: Xinzhan Sun
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: For anova_post_hoc(), data type must be dataframe, which the first column is treatment as "factor"" type and the second column is data as "numeric"" type. 
     anova_post_hoc() would first test data by one-way ANOVA, then post hoc test.
     Before ANOVA, shapiro.test and leveneTest were used. log1p() would be used if necessary.
     If there are two treatments, Student's t-test or Wilicoxon test was used.
-    If there are three treatments or more, Duncan test or Kruskal-Waliis test was used.
+    If there are three treatments or more, LSD test or Kruskal-Waliis test was used.
     For df_cbind(), calculate mean and sum of the df according group of the gr and taxonomy of the ta. 
     colname of df is fit with the rowname of gr; and rowname of df is fit with the rowname of ta. col.n is one of the colnames of gr, and row.n is one of the colnames of ta.
     df, gr, ta are belonging to dataframe.
